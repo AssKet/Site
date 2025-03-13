@@ -194,4 +194,5 @@ p {
 .policy li a {
   text-decoration: none;
   color: inherit;
+  font-size: inherit;
 }
