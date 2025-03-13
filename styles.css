@@ -25,7 +25,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   color: #000000;
-  font-weight: bold;
+  font-style: bold;
 }
 
 .nav a:hover {
@@ -191,21 +191,8 @@ p {
   color: #a6a6a6;
 }
 
-/* Оформление ссылки в "Политике конфиденциальности" */
 .policy li a {
   text-decoration: none;
-  color: #a6a6a6;
-  cursor: pointer;
-}
-
-.policy li a:visited {
-  color: #a6a6a6;
-}
-
-.policy li a:hover {
-  color: #a6a6a6;
-}
-
-.policy li a:active {
-  color: #a6a6a6;
+  color: inherit;
+  font-size: inherit;
 }
